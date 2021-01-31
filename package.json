@@ -1,0 +1,19 @@
+{
+  "name": "unix-domain-socket-ssh-forwarder",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Toshimitsu Takahashi",
+  "license": "MIT",
+  "dependencies": {
+    "ssh2": "~0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "@types/ssh2": "^0.5.46",
+    "typescript": "^4.1.3"
+  }
+}
